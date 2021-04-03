@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script src="index.js" defer></script>
+    <title>PlantIn</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <nav class="nav">
+                <div class="nav__main">
+                    <a href="#">
+                        <img src="assets/icons/logo.svg" alt="PlantIn-logo" class="nav__logo"/>
+                    </a>
+                    <div class="nav__list" id="nav__list">
+                        <a class="nav__list_item" href="#">Discover</a>
+                        <a class="nav__list_item" href="#">My Plants</a>
+                        <a class="nav__list_item" href="#">Diseases</a>
+                        <a class="nav__list_item" href="#">Blog</a>
+                        <a class="nav__list_item" href="#">FAQ</a>
+                        <a class="nav__list_item" href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="nav__additional">
+                    <button class="nav__additional_search">
+                        <img src="assets/icons/search.svg" alt="icon-search"/>
+                    </button>
+                    <button class="media-hidden">
+                        <img src="assets/icons/user.png" alt="icon-user"/>
+                    </button>
+                    <button class="nav__button media-show" id="button__nav">
+                        <img src="assets/icons/menu.svg" alt="icon-menu"/>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main__content">
+            <nav class="main__nav">
+                <a href="#" class="main__nav_link">
+                    <p class="main__nav_text">Home</p>
+                    <img class="main__nav_icon" src="assets/icons/chevron.svg" alt="chevron"/>
+                </a>
+                <a href="#" class="main__nav_link media-hidden">
+                    <p class="main__nav_text">Blog</p>
+                    <img src="assets/icons/chevron.svg" alt="chevron"/>
+                </a>
+            </nav>
+            <article class="search">
+                <h2 class="search__title">Stay always tuned with planting trends</h2>
+                <p class="search__text">
+                    <b>Tips & Tricks</b> selected specially for <b>you!</b>
+                </p>
+                <div class="search__input">
+                    <input class="search__input_form" placeholder="Search"/>
+                    <button class="search__input_button">
+                        <img src="assets/icons/search-input.svg" alt="icon-search"/>
+                    </button>
+                </div>
+                <img class="search__image media-hidden" src="assets/images/search_image.svg" alt="image-search"/>
+                <img class="search__image media-hidden" src="assets/images/search_image.svg" alt="image-search"/>
+            </article>
+            <article class="new">
+                <img src="assets/icons/badge.svg" class="new__icon" alt="icon-budge"/>
+                <div class="new__block container">
+                    <img src="assets/images/new_image.jpg" alt="new-image" class="new__block_image"/>
+                    <div class="new__block__text">
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h2 class="new__block_header">Tips & Tricks For Cutting</h2>
+                        <p class="block__item_text">
+                            Pruning, like any other skill, requires knowing what you are
+                            doing to achieve success. The old idea that anyone with a chain
+                            saw or a pruning saw can be a landscape pruner is far from the
+                            truth. More trees are killed or ruined each year from improper
+                            pruning than by pests. Remember that pruning is the removal
+                            or...
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="block">
+                <h3 class="block__header">TOP of the Day</h3>
+                <div class="container">
+                    <div class="block__item">
+                        <img src="assets/images/article_image_1.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <img src="assets/images/article_image_2.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="block">
+                <h3 class="block__header">Interesting</h3>
+                <div class="block__container">
+                    <div class="block__item">
+                        <img src="assets/images/article_image_water.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Watering mastery</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_plant.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Plant pot secrets</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_repot.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <img src="assets/images/article_image_water.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Watering mastery</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_repot.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_plant.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Plant pot secrets</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="promo">
+                <img src="assets/icons/logo.svg" alt="PlantIn-logo" class="promo__icon"/>
+                <h2 class="promo__title">Get unlimited access to exclusive articles</h2>
+                <p class="promo__text">Get rid of limits and read everything you wish</p>
+                <button class="promo__button">Try For Free</button>
+                <img src="assets/images/promo_image.svg" alt="image-promo" class="promo__image media-hidden"/>
+            </article>
+            <article>
+                <div class="block__container">
+                    <div class="block__item">
+                        <img src="assets/images/article_image_water.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Watering mastery</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_plant.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Plant pot secrets</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_repot.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <img src="assets/images/article_image_water.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Watering mastery</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_repot.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Professional Repot</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-hidden">
+                        <img src="assets/images/article_image_plant.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Plant pot secrets</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                    <div class="block__item media-show">
+                        <img src="assets/images/article_image_water.jpg" alt="plant-photo" class="block__item_photo"/>
+                        <p class="block__item_date">Feb 23 · 8 min read</p>
+                        <h4 class="block__item_header">Watering mastery</h4>
+                        <p class="block__item_text">
+                            Repotting a plant can seem like a difficult task because a lot
+                            of things can go wrong – you can damage...
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <div class="placeholder">
+                <div class="block__container">
+                    <div class="placeholder__item">
+                        <div class="placeholder__item_photo"></div>
+                        <div class="placeholder__item_date"></div>
+                        <div class="placeholder__item_title"></div>
+                        <div class="placeholder__item_text"></div>
+                    </div>
+                    <div class="placeholder__item">
+                        <div class="placeholder__item_photo"></div>
+                        <div class="placeholder__item_date"></div>
+                        <div class="placeholder__item_title"></div>
+                        <div class="placeholder__item_text"></div>
+                    </div>
+                    <div class="placeholder__item">
+                        <div class="placeholder__item_photo"></div>
+                        <div class="placeholder__item_date"></div>
+                        <div class="placeholder__item_title"></div>
+                        <div class="placeholder__item_text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__nav">
+            <a href="#" class="footer__nav_link">Terms of Service</a>
+            <span class="footer__nav_line media-hidden"></span>
+            <a href="#" class="footer__nav_link">Privacy Policy</a>
+            <span class="footer__nav_line media-hidden"></span>
+            <a href="#" class="footer__nav_link">Subscription Policy</a>
+        </div>
+        <div class="footer__text">
+            <p>©Copyright © 2020 PlantIn.&nbsp;</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
